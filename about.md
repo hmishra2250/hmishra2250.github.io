@@ -5,15 +5,15 @@ permalink: /about/
 ---
 
 <p>
-Hi there! I'm Himadri, currently in Fourth Year of Integrated Dual Degree (B.Tech and M.Tech), Computer Science and Engineering at IIT(BHU), Varanasi. I am a Competitive Programmer (Machine Learning and Algorithmic) and currently a researcher in Machine Learning, mainly in Deep Learning. 
+Hi there! I'm Himadri, currently in Fourth Year of Integrated Dual Degree (B.Tech and M.Tech), Computer Science and Engineering at IIT(BHU), Varanasi. I am a Competitive Programmer (Machine Learning and Algorithmic) and also a researcher in Machine Learning, mainly in Deep Learning. 
 </p>
 <p>
-I started working in Machine Learning from my Sophomore year where i had a glimpse of actual Machine Learning Projects through the Exploratory Project of 4th semester, through which i learned some basic analyis techniquues in R and thus helped me get into ML. <br>
+I started working in Machine Learning from my Sophomore year where i had a glimpse of actual Machine Learning Projects through the Exploratory Project, through which i learned some basic analyis techniquues in R that helped me get into ML. <br>
 I took some basic courses in ML to get started, started coding in python and did my B.Tech minor project in <a href="https://github.com/hmishra2250/SixthSemProject">Movie Retrieval</a> which involved retrieving relevant Movies based on user queries. <br>
-This project paved way for me to get hands dirty with Deep Learning.
+This project proved to be the beginning point for me in Deep Learning.
 </p>
 <p>
-I completed my <a href="https://github.com/hmishra2250/BTP">Bachleor's Major project</a> aka BTP on Botnet Detection in Networks using Machine Learning wherein the focus was mainly on advanced ML techniques such as Gradient Boosting Regression and Deep Learning
+I completed my <a href="https://github.com/hmishra2250/BTP">Bachelor's Major project</a> aka BTP on Botnet Detection through Behaviour Analysis of Network Flows using Machine Learning wherein the focus was mainly on ML techniques such as Gradient Boosting Regression and Deep Learning
 </p>
 <p>
 <u>My Current work involves working on One Shot Learning using Neural Networks (Neural Turing Machine Architecture) on small datasets. </u><br>
@@ -28,7 +28,7 @@ I am currently following <a href="http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mitc
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+ 
 
 ### Contact me
 
