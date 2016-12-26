@@ -40,7 +40,8 @@ In my spare time, i love listening to music (specially by Ed Sheeran) and playin
 I also love meeting and interacting with new people and learning about their culture.
 </p> 
 <p>
-I have a vision of improving the world with the use of my knowledge and the capabilities of AI, and also to travel the whole world to understand people better.
+I have a vision of improving the world with the use of my knowledge and the capabilities of AI, and also to travel the whole world to understand people better. I love Mathematics as it's the language of Science and thus am very much involved in learning this language :)
+</p>
 
 ### Contact me
 
