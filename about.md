@@ -31,10 +31,11 @@ I completed my <a href="https://github.com/hmishra2250/BTP">Bachelor's Major pro
 I have also got my hands dirty with some cool stuffs such building ChatBot using Microsoft Bot Framework and also building a web app for the bot my Internship @ Microsoft. <br>
 <p>
 I have also some contests in ML to show on my <a href="https://www.kaggle.com/hmishra2250">Kaggle</a> Home Page.
+</p>
 
 ### More Information
 
-<o>
+<p>
 In my spare time, i love listening to music (specially by Ed Sheeran) and playing Table tennis or pool. I love trying out new cuisine and that's also why i love to travel to new places :P <br>
 I also love meeting and interacting with new people and learning about their culture.
 </p> 
