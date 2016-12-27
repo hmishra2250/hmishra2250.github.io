@@ -81,8 +81,10 @@ Release candidate is generally the stable version, but it tends to have problem 
 
 	* Installing Theano Release i.e optimized theano (v0.8 latest by the time of writing) Candidate:  
 		
-		```pip install theano```  
-	(As simple as that ;) )
+	
+	```pip install theano```  
+	(As simple as that ;) )  
+
 	* Installing Theano Bleeding-Edge (or Dev, its procedure is similar) version  :
 
 ```bash
