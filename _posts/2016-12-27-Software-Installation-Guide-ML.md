@@ -23,12 +23,12 @@ When I began Expreimenting in Machine Learning with my GPU (GTX-940MX), I had to
     * Open the ~/.bashrc file in and set the following filepath:  
 
         ```shell
-        export CUDA_HOME=path-to-latest-cuda  
-        export PATH=path-to-latest-cuda/bin${PATH:+:${PATH}}  
-        export LD_LIBRARY_PATH=path-to-latest-cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}  
-        export CPATH=path-to-latest-cuda/include:$CPATH  
-        export LIBRARY_PATH=path-to-latest-cuda/:$LIBRARY_PATH  
-        ```
+export CUDA_HOME=path-to-latest-cuda  
+export PATH=path-to-latest-cuda/bin${PATH:+:${PATH}}  
+export LD_LIBRARY_PATH=path-to-latest-cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}  
+export CPATH=path-to-latest-cuda/include:$CPATH  
+export LIBRARY_PATH=path-to-latest-cuda/:$LIBRARY_PATH  
+```
 
 	* Note that the default cuda path is /usr/local/cuda-v.0 until and unless customised during installation
 	* Download and Install latest CuDNN from the official page (CuDNN v5.1 latest as of writing this). If you are installing cuda from sources, follow below path, else find first the cuda installation path using "_which nvcc_".
