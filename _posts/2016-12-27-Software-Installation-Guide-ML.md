@@ -58,6 +58,8 @@ That’s All. latest version of CUDA will be installed now along with CuDNN!
 
 * ### Install OpenBLAS:
 
+OpenBLAS OpenBLAS is an open source implementation of the BLAS (Basic Linear Algebra Subprograms) API with many hand-crafted optimizations for specific processor types. Its main competitor is MKL by intel. However it's normally seen that OpenBLAS outperforms MKL, thus we use OpenBLAS in our installation.
+
 ```bash
 git clone https://github.com/xianyi/OpenBLAS
 cd OpenBLAS
@@ -68,12 +70,19 @@ gedit /etc/ld.so.conf.d/openblas.conf
 #Type inside gedit window directory to new library, i.e: /opt/openblas/lib and exit
 sudo ldconfig
 ```
-_Note: Instead of OpenBLAS, we can also install mkl, which is very simple to install as `conda install mkl` via Anaconda.
+_Note: Instead of OpenBLAS, we can also install mkl, which is very simple to install as `conda install mkl` via Anaconda._
 
 * ### Installing Theano
-Installing Theano Release (optimized theano) Candidate:
-pip install theano (As simple as that ;) )
-Installing Theano Dev(Bleeding-Edge recommended) :
+
+Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. [source](http://deeplearning.net/software/theano/)
+There are two different versions of Theano available for installation : Release candidate and Bleeding Edge version. Installation of Development version is not recommended as it may contain a lot of bugs.
+
+Release candidate is generally the stable version, but it tends to have problem with the latest CUDA or CuDNN. Hence it is recommended that we install Bleeding Edge version of theano along with latest softwares.
+
+	* Installing Theano Release i.e optimized theano (v0.8 latest by the time of writing) Candidate:  
+	`pip install theano`  
+	(As simple as that ;) )
+	* Installing Theano Bleeding-Edge (or Dev, its [procedure](http://deeplearning.net/software/theano_versions/dev/install.html) is similar) version  :
 pip install --user git+https://github.com/Theano/Theano.git#egg=Theano
 Install libgpuarray:
 git clone https://github.com/Theano/libgpuarray.git
