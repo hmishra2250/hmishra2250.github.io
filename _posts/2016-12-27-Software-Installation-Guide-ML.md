@@ -23,13 +23,9 @@ When I began Expreimenting in Machine Learning with my GPU (GTX-940MX), I had to
   * Open the ~/.bashrc file in and set the following filepath:  
     ```
     export CUDA_HOME=path-to-latest-cuda
-
-    export PATH=path-to-latest-cuda/bin${PATH:+:${PATH}}
-    
+	export PATH=path-to-latest-cuda/bin${PATH:+:${PATH}}
     export LD_LIBRARY_PATH=path-to-latest-cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
-	
 	export CPATH=path-to-latest-cuda/include:$CPATH
-	
 	export LIBRARY_PATH=path-to-latest-cuda/:$LIBRARY_PATH
 	```  
 
