@@ -122,6 +122,7 @@ gedit ~/.keras/keras.json
 	```
 	pip install xgboost
 	```
+	
 	* Installing GPU version:  
 
 ```bash  
