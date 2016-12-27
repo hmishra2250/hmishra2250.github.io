@@ -20,8 +20,8 @@ When I began Expreimenting in Machine Learning with my GPU (GTX-940MX), I had to
     CUDA® is a parallel computing platform and programming model invented by NVIDIA. It enables dramatic increases in computing performance by harnessing the power of the graphics processing unit (GPU). To install latest CUDA (v8.0 latest as of the time of writing this) on your device, follow these steps:
     * Open Linux Dash and search for Additional Drivers. Choose latest “Open Source” driver and install it.
     * Now that Nvidia Driver is installed, Goto [Nvidia Cuda website](https://developer.nvidia.com/cuda-downloads) and download the latest Cuda toolkit “runfile” for Linux and the specific architecture (x86-64 generally for 64 bits system). Run the runfile with root priviledges, and follow along the onscreen instruction for configurations. Thus CUDA toolkit will thus be installed.
-    * Open the ~/.bashrc file in and set the following filepath:
-      Note that the default cuda path is /usr/local/cuda-v.0 until and unless customised during installation
+    * Open the ~/.bashrc file in and set the following filepath:  
+      *Note that the default cuda path is /usr/local/cuda-v.0 until and unless customised during installation*
 
 ```shell
 export CUDA_HOME=path-to-latest-cuda  
