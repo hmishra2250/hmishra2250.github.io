@@ -30,7 +30,7 @@ I completed my <a href="https://github.com/hmishra2250/BTP">Bachelor's Major pro
 </p>
 I have also got my hands dirty with some cool stuffs such building ChatBot using Microsoft Bot Framework and also building a web app for the bot my Internship @ Microsoft. <br>
 <p>
-I have also some contests in ML to show on my <a href="https://www.kaggle.com/hmishra2250">Kaggle</a> Home Page.
+I have also some contests in ML to show on my <a href="https://www.kaggle.com/hmishra2250">Kaggle</a> Home Page. Although I am unrated there now, but very soon i will be moving up :)
 </p>
 
 ### More Information
