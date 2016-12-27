@@ -81,7 +81,7 @@ Release candidate is generally the stable version, but it tends to have problem 
 
 	* Installing Theano Release i.e optimized theano (v0.8 latest by the time of writing) Candidate:  
 		
-		`pip install theano`  
+		```pip install theano```  
 	(As simple as that ;) )
 	* Installing Theano Bleeding-Edge (or Dev, its procedure is similar) version  :
 
@@ -113,9 +113,10 @@ gedit ~/.keras/keras.json
 
 XGBoost is short for “Extreme Gradient Boosting”, where the term “Gradient Boosting” is proposed in the paper Greedy Function Approximation: A Gradient Boosting Machine, by Friedman.  
 Initially XGBoost was only available to run on CPU's and was comparatively intensive.  
-However with 
+However with advent of its GPU version, XGBoost is now able to achieve speedup of 2X on a normal personal computer GPU and as high as 6X with high end Pascal TitanX GPU.
 
-(CPU): pip install xgboost
+	* Installing CPU version:  
+	pip install xgboost
 (GPU):  
 Download CUB header and put anywhere
 git clone --recursive https://github.com/dmlc/xgboost
