@@ -56,6 +56,64 @@ That’s All. latest version of CUDA will be installed now along with CuDNN!
   
   * After creating separate env, pip installation is very simple as mentioned [here](https://www.tensorflow.org/get_started/os_setup#pip_installation). Make sure to choose GPU enabled version through pip if you have GPU enabled device and you have setup CUDA as described above.
 
+* ### Install OpenBLAS:
+
+```bash
+git clone https://github.com/xianyi/OpenBLAS
+cd OpenBLAS
+make FC=gfortran
+sudo make PREFIX=/opt/openblas install
+#This will help in getting out of way of apt-get installed things
+gedit /etc/ld.so.conf.d/openblas.conf
+#Type inside gedit window directory to new library, i.e: /opt/openblas/lib and exit
+sudo ldconfig
+```
+_Note: Instead of OpenBLAS, we can also install mkl, which is very simple to install as `conda install mkl` via Anaconda.
+
+* ### Installing Theano
+Installing Theano Release (optimized theano) Candidate:
+pip install theano (As simple as that ;) )
+Installing Theano Dev(Bleeding-Edge recommended) :
+pip install --user git+https://github.com/Theano/Theano.git#egg=Theano
+Install libgpuarray:
+git clone https://github.com/Theano/libgpuarray.git
+cd libgpuarray
+cd <dir>
+mkdir Build
+cd Build
+# you can pass -DCMAKE_INSTALL_PREFIX=/path/to/somewhere to install to an alternate location
+cmake .. -DCMAKE_BUILD_TYPE=Release # or Debug if you are investigating a crash
+make
+make install
+cd ..
+# This must be done after libgpuarray is installed as per instructions above.
+python setup.py build
+python setup.py install
+Install Keras:
+pip install keras
+gedit ~/.keras/keras.json and change backend to tensorflow or theano as required. Also change image_dim_flag accordingly
+Also look forward to change .theanorc file as and when required (for theano cofig mainly)
+Install XGBoost :
+(CPU): pip install xgboost
+(GPU):  
+Download CUB header and put anywhere
+git clone --recursive https://github.com/dmlc/xgboost
+cd  xgboost && mkdir build && cd build
+cmake .. -DPLUGIN_UPDATER_GPU=ON -DCUB_DIRECTORY=<CUB_DIRECTORY>
+cd ../python-package
+python setup.py develop --user
+
+
+
+
+
+
+
+
+
+
+
+
 This Blog was created using [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on Github, as starting point. It is a very good point to get started with personal blogs. Using only static pages in the blog makes it comparatively faster than other Micro Blogging sites which uses Databases. 
 The best way to get started with a personal blog is to fork the [above](https://github.com/barryclark/jekyll-now) repository or one of the custom themes as mentioned [Here](https://github.com/barryclark/jekyll-now#other-forkable-themes). Next one can update their site name, avatar and other options using the _config.yml file in the root of the repository (shown below).
 
