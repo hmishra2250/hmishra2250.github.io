@@ -28,8 +28,8 @@ When I began Expreimenting in Machine Learning with my GPU (GTX-940MX), I had to
 	export CPATH=path-to-latest-cuda/include:$CPATH  
 	export LIBRARY_PATH=path-to-latest-cuda/:$LIBRARY_PATH  
 	```  
-	*Note that the default cuda path is /usr/local/cuda-v.0 until and unless customised during installation*  
-  * Download and Install latest CuDNN from the official page (CuDNN v5.1 latest as of writing this). If you are installing cuda from sources, follow below path, else find first the cuda installation path using "*which nvcc*".
+	**_Note that the default cuda path is /usr/local/cuda-v.0 until and unless customised during installation_**  
+  * Download and Install latest CuDNN from the official page (CuDNN v5.1 latest as of writing this). If you are installing cuda from sources, follow below path, else find first the cuda installation path using "_which nvcc_".
     Extract the Archive and follow the following commands:
 	``` shell
 	cd <installpath>
@@ -39,7 +39,9 @@ When I began Expreimenting in Machine Learning with my GPU (GTX-940MX), I had to
 	```
   * That’s All. latest version of CUDA will be installed now along with CuDNN!
 
-2. ### Tensorflow for Linux (Edit: with version r0.12, TF can also be installed on windows using pip)
+2. ### Tensorflow for Linux
+
+  Note: with version r0.12, TF can also be installed on windows using pip
   * Create another environment in Anaconda to avoid any problems in existing libs. There ain't any reported problems, still its a good practice to not let theano and tensorflow interact in same environment.
   * After creating separate env, pip installation is very simple as mentioned [here](https://www.tensorflow.org/get_started/os_setup#pip_installation). Make sure to choose GPU enabled version through pip if you have GPU enabled device and you have setup CUDA as described above.
 
