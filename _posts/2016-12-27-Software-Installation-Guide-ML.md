@@ -31,8 +31,8 @@ export CPATH=path-to-latest-cuda/include:$CPATH
 export LIBRARY_PATH=path-to-latest-cuda/:$LIBRARY_PATH  
 ```
 
-	Download and Install latest CuDNN from the official page (CuDNN v5.1 latest as of writing this). If you are installing cuda from sources, follow below path, else find first the cuda installation path using "_which nvcc_".
-	Extract the Archive and follow the following commands:
+Download and Install latest CuDNN from the official page (CuDNN v5.1 latest as of writing this). If you are installing cuda from sources, follow below path, else find first the cuda installation path using "_which nvcc_".
+Extract the Archive and follow the following commands:
 
 ```shell
 cd <installpath>
