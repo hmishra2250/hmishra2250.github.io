@@ -33,12 +33,12 @@ export LIBRARY_PATH=path-to-latest-cuda/:$LIBRARY_PATH
 	* Download and Install latest CuDNN from the official page (CuDNN v5.1 latest as of writing this). If you are installing cuda from sources, follow below path, else find first the cuda installation path using "_which nvcc_".
 	Extract the Archive and follow the following commands:
 
-	```shell
-	cd <installpath>
-	sudo cp cuda/include/cudnn.h /usr/local/cuda/include
-	sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64
-	sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
-	```
+```shell
+cd <installpath>
+sudo cp cuda/include/cudnn.h /usr/local/cuda/include
+sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64
+sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
+```
 	* That’s All. latest version of CUDA will be installed now along with CuDNN!
 
 2. ### Tensorflow for Linux
