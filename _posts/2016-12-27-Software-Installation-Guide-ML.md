@@ -22,13 +22,13 @@ When I began Expreimenting in Machine Learning with my GPU (GTX-940MX), I had to
 	* Now that Nvidia Driver is installed, Goto [Nvidia Cuda website](https://developer.nvidia.com/cuda-downloads) and download the latest Cuda toolkit “runfile” for Linux and the specific architecture (x86-64 generally for 64 bits system). Run the runfile with root priviledges, and follow along the onscreen instruction for configurations. Thus CUDA toolkit will thus be installed.
 	* Open the ~/.bashrc file in and set the following filepath:  
 
-```shell
-export CUDA_HOME=path-to-latest-cuda  
-export PATH=path-to-latest-cuda/bin${PATH:+:${PATH}}  
-export LD_LIBRARY_PATH=path-to-latest-cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}  
-export CPATH=path-to-latest-cuda/include:$CPATH  
-export LIBRARY_PATH=path-to-latest-cuda/:$LIBRARY_PATH  
-```
+        ```shell
+        export CUDA_HOME=path-to-latest-cuda  
+        export PATH=path-to-latest-cuda/bin${PATH:+:${PATH}}  
+        export LD_LIBRARY_PATH=path-to-latest-cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}  
+        export CPATH=path-to-latest-cuda/include:$CPATH  
+        export LIBRARY_PATH=path-to-latest-cuda/:$LIBRARY_PATH  
+        ```
 
 	* Note that the default cuda path is /usr/local/cuda-v.0 until and unless customised during installation
 	* Download and Install latest CuDNN from the official page (CuDNN v5.1 latest as of writing this). If you are installing cuda from sources, follow below path, else find first the cuda installation path using "_which nvcc_".
