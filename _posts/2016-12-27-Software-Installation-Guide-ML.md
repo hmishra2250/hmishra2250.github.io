@@ -10,8 +10,8 @@ When I began Expreimenting in Machine Learning with my GPU (GTX-940MX), I had to
 </p>
 
 ### Pre-Requesites:  
-1. A [CUDA capable GPU](http://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#verify-you-have-cuda-enabled-system) with  compute capablitlity greater than or equal to 3.5  
-2. Anaconda or Any other Virtual Environment Manager, so that we don't screw up with system playing with installations (Recommended although not Required)  
+1. A [CUDA capable GPU](http://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#verify-you-have-cuda-enabled-system) with  compute capablitlity greater than or equal to 3.5
+2. Anaconda or Any other Virtual Environment Manager, so that we don't screw up with system playing with installations (Recommended although not Required)
 
 <p>
 
