@@ -6,7 +6,7 @@ permalink: /about/
 
 One Shot Learning is a concept
 
-##About Author
+## About Author
 <p>
 Hi there! I'm Himadri, currently in Fourth Year of Integrated Dual Degree (B.Tech and M.Tech), Computer Science and Engineering at IIT(BHU), Varanasi. I am a Competitive Programmer (Machine Learning and Algorithmic) and also a researcher in Machine Learning, mainly in Deep Learning. 
 </p>
