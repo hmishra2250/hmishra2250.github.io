@@ -17,10 +17,18 @@ When I began Expreimenting in Machine Learning with my GPU (GTX-940MX), I had to
 ## Installation Guide:  
 
 1. ### Nvidia CUDA for Linux
-  CUDA® is a parallel computing platform and programming model invented by NVIDIA. It enables dramatic increases in computing performance by harnessing the power of the graphics processing unit (GPU). To install latest CUDA (v8.0) on a GPU enabled Linux device, follow these steps:
+  CUDA® is a parallel computing platform and programming model invented by NVIDIA. It enables dramatic increases in computing performance by harnessing the power of the graphics processing unit (GPU). To install latest CUDA (v8.0 latest as of the time of writing this) on your device, follow these steps:
   * Open Linux Dash and search for Additional Drivers. Choose latest “Open Source” driver and install it.
   * Now that Nvidia Driver is installed, Goto [Nvidia Cuda website](https://developer.nvidia.com/cuda-downloads) and download the latest Cuda toolkit “runfile” for Linux and the specific architecture (x86-64 generally for 64 bits system). Run the runfile with root priviledges, and follow along the onscreen instruction for configurations. Thus CUDA toolkit will thus be installed.
   * Open the ~/.bashrc file in and set the following filepath:
+    ```shell
+    export CUDA_HOME=path-to-latest-cuda
+    export PATH=path-to-latest-cuda/bin${PATH:+:${PATH}}
+    export LD_LIBRARY_PATH=path-to-latest-cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+	export CPATH=path-to-latest-cuda/include:$CPATH
+	export LIBRARY_PATH=path-to-latest-cuda/:$LIBRARY_PATH
+	```
+
 
 
 This Blog was created using [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on Github, as starting point. It is a very good point to get started with personal blogs. Using only static pages in the blog makes it comparatively faster than other Micro Blogging sites which uses Databases. 
