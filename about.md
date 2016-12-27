@@ -4,7 +4,9 @@ title: About
 permalink: /about/
 ---
 
-[One Shot Learning](https://en.wikipedia.org/wiki/One-shot_learning), in general terms, is a concept
+[One Shot Learning](https://en.wikipedia.org/wiki/One-shot_learning), in general terms, is a concept wherein the learner learn information from very few, or "One" example, thus the name, One Shot Learning.  
+This blog, in a similar manner reflects a cluster of information, going through which the person will be able to grasp concepts in one shot, as compared to iterative and numerous interactions with multiple other blogs and tutorials.  
+One Shot Learning reflects the collection that author has accumulated over working his way through different resources on similar topics over the internet.
 
 # About Author
 <p>
