@@ -9,13 +9,12 @@ Tags: CUDA, Tensorflow, Theano, Keras, XGBoost, GPU
 When I began Expreimenting in Machine Learning with my GPU (GTX-940MX), I had to struggle a lot figuring out installation procedures and suitable versions of Softwares. So in this blog post, I'm gonna share my experience in the form of, according to me, the best possible way of getting the tools needed to begin working with GPUs, mainly through Theano, Tensorflow, Keras and XGBoost.
 </p>
 
-<p>
 ### Pre-Requesites:  
-1. A [CUDA capable GPU](http://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#verify-you-have-cuda-enabled-system) with  compute capablitlity greater than or equal to 3.5 
-2. Anaconda or Any other Virtual Environment Manager, so that we don't screw up with system playing with installations (Recommended although not Required) 
-</p>
+1. A [CUDA capable GPU](http://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#verify-you-have-cuda-enabled-system) with  compute capablitlity greater than or equal to 3.5  
+2. Anaconda or Any other Virtual Environment Manager, so that we don't screw up with system playing with installations (Recommended although not Required)  
 
 <p>
+## Installation Guide:  
 
 </p>
 This Blog was created using [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on Github, as starting point. It is a very good point to get started with personal blogs. Using only static pages in the blog makes it comparatively faster than other Micro Blogging sites which uses Databases. <br>
