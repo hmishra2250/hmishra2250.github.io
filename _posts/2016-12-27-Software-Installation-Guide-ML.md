@@ -16,7 +16,7 @@ When I began Expreimenting in Machine Learning with my GPU (GTX-940MX), I had to
 
 ## Installation Guide:  
 
-1. ### Nvidia CUDA for Linux
+* ### Nvidia CUDA for Linux
 
     CUDA® is a parallel computing platform and programming model invented by NVIDIA. It enables dramatic increases in computing performance by harnessing the power of the graphics processing unit (GPU). To install latest CUDA (v8.0 latest as of the time of writing this) on your device, follow these steps:
 
@@ -48,7 +48,7 @@ sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
 
 That’s All. latest version of CUDA will be installed now along with CuDNN!
 
-2. ### Tensorflow for Linux
+* ### Tensorflow for Linux
 
   Note: with version r0.12, TF can also be installed on windows using pip
   * Create another environment in Anaconda to avoid any problems in existing libs. There ain't any reported problems, still its a good practice to not let theano and tensorflow interact in same environment.
