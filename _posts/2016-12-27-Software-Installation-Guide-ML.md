@@ -118,15 +118,22 @@ Initially XGBoost was only available to run on CPU's and was comparatively inten
 However with advent of its GPU version, XGBoost is now able to achieve speedup of 2X on a normal personal computer GPU and as high as 6X with high end Pascal TitanX GPU.
 
 	* Installing CPU version:  
+	
+	```
 	pip install xgboost
-(GPU):  
-Download CUB header and put anywhere
+	```
+	* Installing GPU version:  
+
+```bash  
+#Download CUB header and put anywhere, link: https://nvlabs.github.io/cub/
 git clone --recursive https://github.com/dmlc/xgboost
-cd  xgboost && mkdir build && cd build
+cd  xgboost
+mkdir build
+cd build
 cmake .. -DPLUGIN_UPDATER_GPU=ON -DCUB_DIRECTORY=<CUB_DIRECTORY>
 cd ../python-package
 python setup.py develop --user
-
+```
 
 
 
