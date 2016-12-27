@@ -74,20 +74,21 @@ _Note: Instead of OpenBLAS, we can also install mkl, which is very simple to ins
 
 * ### Installing Theano
 
-Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. [source](http://deeplearning.net/software/theano/)
-There are two different versions of Theano available for installation : Release candidate and Bleeding Edge version. Installation of Development version is not recommended as it may contain a lot of bugs.
-
+Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. [source](http://deeplearning.net/software/theano/)  
+There are two different versions of Theano available for installation : Release candidate and Bleeding Edge version.  
+Installation of Development version is not recommended as it may contain a lot of bugs.  
 Release candidate is generally the stable version, but it tends to have problem with the latest CUDA or CuDNN. Hence it is recommended that we install Bleeding Edge version of theano along with latest softwares.
 
 	* Installing Theano Release i.e optimized theano (v0.8 latest by the time of writing) Candidate:  
 	`pip install theano`  
 	(As simple as that ;) )
 	* Installing Theano Bleeding-Edge (or Dev, its [procedure](http://deeplearning.net/software/theano_versions/dev/install.html) is similar) version  :
+
+```bash
 pip install --user git+https://github.com/Theano/Theano.git#egg=Theano
-Install libgpuarray:
+#Install libgpuarray, required for Bleeding Edge and dev Version 
 git clone https://github.com/Theano/libgpuarray.git
 cd libgpuarray
-cd <dir>
 mkdir Build
 cd Build
 # you can pass -DCMAKE_INSTALL_PREFIX=/path/to/somewhere to install to an alternate location
@@ -98,6 +99,7 @@ cd ..
 # This must be done after libgpuarray is installed as per instructions above.
 python setup.py build
 python setup.py install
+```
 Install Keras:
 pip install keras
 gedit ~/.keras/keras.json and change backend to tensorflow or theano as required. Also change image_dim_flag accordingly
