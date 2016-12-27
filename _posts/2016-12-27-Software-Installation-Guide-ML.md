@@ -74,10 +74,10 @@ _Note: Instead of OpenBLAS, we can also install mkl, which is very simple to ins
 
 * ### Installing Theano
 
-Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. [source](http://deeplearning.net/software/theano/)  
-There are two different versions of Theano available for installation : Release candidate and Bleeding Edge version.  
-Installation of Development version is not recommended as it may contain a lot of bugs.  
-Release candidate is generally the stable version, but it tends to have problem with the latest CUDA or CuDNN. Hence it is recommended that we install Bleeding Edge version of theano along with latest softwares.
+	Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. [source](http://deeplearning.net/software/theano/)  
+	There are two different versions of Theano available for installation : Release candidate and Bleeding Edge version.  
+	Installation of Development version is not recommended as it may contain a lot of bugs.  
+	Release candidate is generally the stable version, but it tends to have problem with the latest CUDA or CuDNN. Hence it is recommended that we install Bleeding Edge version of theano along with latest softwares.
 
 	* Installing Theano Release i.e optimized theano (v0.8 latest by the time of writing) Candidate:  
 		
@@ -113,9 +113,9 @@ gedit ~/.keras/keras.json
 ```
 * ### Install XGBoost :
 
-XGBoost is short for “Extreme Gradient Boosting”, where the term “Gradient Boosting” is proposed in the paper Greedy Function Approximation: A Gradient Boosting Machine, by Friedman.  
-Initially XGBoost was only available to run on CPU's and was comparatively intensive.  
-However with advent of its GPU version, XGBoost is now able to achieve speedup of 2X on a normal personal computer GPU and as high as 6X with high end Pascal TitanX GPU.
+	XGBoost is short for “Extreme Gradient Boosting”, where the term “Gradient Boosting” is proposed in the paper Greedy Function Approximation: A Gradient Boosting Machine, by Friedman.  
+	Initially XGBoost was only available to run on CPU's and was comparatively intensive.  
+	However with advent of its GPU version, XGBoost is now able to achieve speedup of 2X on a normal personal computer GPU and as high as 6X with high end Pascal TitanX GPU.
 
 	* Installing CPU version:  
 	
