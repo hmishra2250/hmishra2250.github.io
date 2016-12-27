@@ -8,7 +8,9 @@ permalink: /about/
 Hi there! I'm Himadri, currently in Fourth Year of Integrated Dual Degree (B.Tech and M.Tech), Computer Science and Engineering at IIT(BHU), Varanasi. I am a Competitive Programmer (Machine Learning and Algorithmic) and also a researcher in Machine Learning, mainly in Deep Learning. 
 </p>
 <p>
-<u>My Current work involves working on One Shot Learning using Neural Networks (using Neural Turing Machine and Neural GPU Architectures) viz Memory Augmented Neural Networks on relatively small datasets. </u><br>
+<u>My Current work involves working on One Shot Learning using Neural Networks (using Neural Turing Machine and Neural GPU Architectures) viz Memory Augmented Neural Networks on relatively small datasets. </u>
+</p>
+<p>
 I am also consistently involved in Competitive Programming. Some of my major achievements are Getting top 8% in <a href="https://www.kaggle.com/c/allstate-claims-severity/">Kaggle AllState Claims contest</a>, Getting into ACM ICPC regionals twice. <br>
 I have also delivered a small talk in the seminar course on <a href="https://www.linkedin.com/pulse/automatic-machine-learning-himadri-mishra?trk=prof-post">Automatic Machine Learning</a> in the 7th Semester.
 </p>
