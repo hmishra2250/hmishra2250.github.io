@@ -5,7 +5,7 @@ title: Machine Learning Software Installation Cheatsheet
 
 Tags: CUDA, Tensorflow, Theano, Keras, XGBoost, GPU
 
-When I began Expreimenting in Machine Learning with my GPU (GTX-940MX), I had to struggle a lot figuring out installation procedures and suitable versions of Softwares. So in this blog post, I'm gonna share my experience in the form of, according to me, the best possible way of getting the tools needed to begin working with GPUs, mainly through Theano, Tensorflow, Keras and XGBoost.
+When I began Expreimenting in Machine Learning with my GPU (GTX-940MX), I had to struggle a lot figuring out installation procedures and suitable versions of Softwares. So in this blog post, I'm gonna share my experience in the form of, according to me, the best possible way of getting the tools needed to begin working in ML, preferably with GPUs, mainly through Theano, Tensorflow, Keras and XGBoost.
 
 
 ### Pre-Requesites:  
