@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Machine Learning Software Installation CheatSheet
+title: Machine Learning Software Installation Cheatsheet
 ---
 
 Tags: CUDA, Tensorflow, Theano, Keras, XGBoost, GPU
