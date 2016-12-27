@@ -28,6 +28,7 @@ When I began Expreimenting in Machine Learning with my GPU (GTX-940MX), I had to
 	export CPATH=path-to-latest-cuda/include:$CPATH
 	export LIBRARY_PATH=path-to-latest-cuda/:$LIBRARY_PATH
 	```
+	Note that the default cuda path is /usr/local/cuda-v.0 until and unless customised during installation
 
 
 
