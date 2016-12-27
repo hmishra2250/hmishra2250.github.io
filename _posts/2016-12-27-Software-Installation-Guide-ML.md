@@ -1,10 +1,8 @@
 ---
 layout: post
-title: How this Blog was created
+title: ML Software Installation CheatSheet
 ---
-<p>
-Tags: Blog, Getting Started, Hello World
-</p>
+
 This Blog was created using [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on Github, as starting point. It is a very good point to get started with personal blogs. Using only static pages in the blog makes it comparatively faster than other Micro Blogging sites which uses Databases. <br>
 The best way to get started with a personal blog is to fork the [above](https://github.com/barryclark/jekyll-now) repository or one of the custom themes as mentioned [Here](https://github.com/barryclark/jekyll-now#other-forkable-themes). Next one can update their site name, avatar and other options using the _config.yml file in the root of the repository (shown below).
 
