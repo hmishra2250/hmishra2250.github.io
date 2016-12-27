@@ -40,8 +40,10 @@ When I began Expreimenting in Machine Learning with my GPU (GTX-940MX), I had to
 	sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
 	```
   * That’s All. latest version of CUDA will be installed now along with CuDNN!
+  
 2. ### Tensorflow for Linux (Edit: with version r0.12, TF can also be installed on windows using pip)
-  * 
+  * Create another environment in Anaconda to avoid any problems in existing libs. There ain't any reported problems, still its a good practice to not let theano and tensorflow interact in same environment.
+  * After creating separate env, pip installation is very simple as mentioned [here](https://www.tensorflow.org/get_started/os_setup#pip_installation). Make sure to choose GPU enabled version through pip if you have GPU enabled device and you have setup CUDA as described above.
 
 This Blog was created using [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on Github, as starting point. It is a very good point to get started with personal blogs. Using only static pages in the blog makes it comparatively faster than other Micro Blogging sites which uses Databases. 
 The best way to get started with a personal blog is to fork the [above](https://github.com/barryclark/jekyll-now) repository or one of the custom themes as mentioned [Here](https://github.com/barryclark/jekyll-now#other-forkable-themes). Next one can update their site name, avatar and other options using the _config.yml file in the root of the repository (shown below).
