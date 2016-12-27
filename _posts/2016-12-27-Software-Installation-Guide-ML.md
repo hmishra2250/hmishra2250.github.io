@@ -29,9 +29,10 @@ export LD_LIBRARY_PATH=path-to-latest-cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY
 export CPATH=path-to-latest-cuda/include:$CPATH  
 export LIBRARY_PATH=path-to-latest-cuda/:$LIBRARY_PATH  
 ```
-	**_Note that the default cuda path is /usr/local/cuda-v.0 until and unless customised during installation_**  
+	Note that the default cuda path is /usr/local/cuda-v.0 until and unless customised during installation
   * Download and Install latest CuDNN from the official page (CuDNN v5.1 latest as of writing this). If you are installing cuda from sources, follow below path, else find first the cuda installation path using "_which nvcc_".
-    Extract the Archive and follow the following commands:  
+    Extract the Archive and follow the following commands:
+
 ```shell
 cd <installpath>
 sudo cp cuda/include/cudnn.h /usr/local/cuda/include
