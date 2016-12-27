@@ -82,7 +82,7 @@ Release candidate is generally the stable version, but it tends to have problem 
 	* Installing Theano Release i.e optimized theano (v0.8 latest by the time of writing) Candidate:  
 	`pip install theano`  
 	(As simple as that ;) )
-	* Installing Theano Bleeding-Edge (or Dev, its [procedure](http://deeplearning.net/software/theano_versions/dev/install.html) is similar) version  :
+	* Installing Theano Bleeding-Edge (or Dev, its procedure is similar) version  :
 
 ```bash
 pip install --user git+https://github.com/Theano/Theano.git#egg=Theano
@@ -100,10 +100,14 @@ cd ..
 python setup.py build
 python setup.py install
 ```
-Install Keras:
+* ### Installing Keras:
+
+```bash
 pip install keras
-gedit ~/.keras/keras.json and change backend to tensorflow or theano as required. Also change image_dim_flag accordingly
-Also look forward to change .theanorc file as and when required (for theano cofig mainly)
+gedit ~/.keras/keras.json 
+#change backend to tensorflow or theano as required. Also change image_dim_flag accordingly and save 
+#Also look forward to change .theanorc file as and when required (for theano cofig mainly)
+```
 Install XGBoost :
 (CPU): pip install xgboost
 (GPU):  
