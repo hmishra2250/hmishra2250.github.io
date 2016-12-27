@@ -21,7 +21,7 @@ When I began Expreimenting in Machine Learning with my GPU (GTX-940MX), I had to
   * Open Linux Dash and search for Additional Drivers. Choose latest “Open Source” driver and install it.
   * Now that Nvidia Driver is installed, Goto [Nvidia Cuda website](https://developer.nvidia.com/cuda-downloads) and download the latest Cuda toolkit “runfile” for Linux and the specific architecture (x86-64 generally for 64 bits system). Run the runfile with root priviledges, and follow along the onscreen instruction for configurations. Thus CUDA toolkit will thus be installed.
   * Open the ~/.bashrc file in and set the following filepath:  
-    ```python
+    ``` shell
     export CUDA_HOME=path-to-latest-cuda  
 	export PATH=path-to-latest-cuda/bin${PATH:+:${PATH}}  
     export LD_LIBRARY_PATH=path-to-latest-cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}  
@@ -33,14 +33,15 @@ When I began Expreimenting in Machine Learning with my GPU (GTX-940MX), I had to
   
   * Download and Install latest CuDNN from the official page (CuDNN v5.1 latest as of writing this). If you are installing cuda from sources, follow below path, else find first the cuda installation path using "*which nvcc*".
     Extract the Archive and follow the following commands:
-	```python
+	``` shell
 	cd <installpath>
 	sudo cp cuda/include/cudnn.h /usr/local/cuda/include
 	sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64
 	sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
 	```
   * That’s All. latest version of CUDA will be installed now along with CuDNN!
-
+2. ### Tensorflow for Linux (Edit: with version r0.12, TF can also be installed on windows using pip)
+  * 
 
 This Blog was created using [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on Github, as starting point. It is a very good point to get started with personal blogs. Using only static pages in the blog makes it comparatively faster than other Micro Blogging sites which uses Databases. 
 The best way to get started with a personal blog is to fork the [above](https://github.com/barryclark/jekyll-now) repository or one of the custom themes as mentioned [Here](https://github.com/barryclark/jekyll-now#other-forkable-themes). Next one can update their site name, avatar and other options using the _config.yml file in the root of the repository (shown below).
