@@ -1,14 +1,9 @@
 ---
 layout: page
-title: About This Blog
+title: Himadri Mishra
 permalink: /about/
 ---
 
-[One Shot Learning](https://en.wikipedia.org/wiki/One-shot_learning), in general terms, is a concept wherein the learner learn information from very few, or "One" example, thus the name, One Shot Learning.  
-This blog, in a similar manner reflects a cluster of information, going through which the person will be able to grasp concepts in one shot, as compared to iterative and numerous interactions with multiple other blogs and tutorials.  
-One Shot Learning reflects the collection that author has accumulated over working his way through different resources on similar topics over the internet.
-
-# About Author
 <p>
 Hi there! I'm Himadri, currently in Fourth Year of Integrated Dual Degree (B.Tech and M.Tech), Computer Science and Engineering at IIT(BHU), Varanasi. I am a Competitive Programmer (Machine Learning and Algorithmic) and also a researcher in Machine Learning, mainly in Deep Learning. 
 </p>
@@ -24,6 +19,13 @@ My Master Theses is going to be related to some application of Deep Learning on 
 I am currently following <a href="http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mitchell/ftp/mlbook.html">Machine Learning by Tom Mitchelle</a> and <a href="https://mitpress.mit.edu/books/machine-learning-0">Machine Learning, A Probabilistic Perspective by Kevin P. Murphy</a> as references to get strong background knowledge in Machine Learning.<br>
  I am also looking forward to begin studying <a href="http://www.deeplearningbook.org/">Deep Learning  by Ian Goodfellow and Yoshua Bengio and Aaron Courville</a> to gain some solid foundations in Deep Learning.
 </p>
+
+# About the Blog 
+
+[One Shot Learning](https://en.wikipedia.org/wiki/One-shot_learning), in general terms, is a concept wherein the learner learn information from very few, or "One" example, thus the name, One Shot Learning.  
+This blog, in a similar manner reflects a cluster of information, going through which the person will be able to grasp concepts in one shot, as compared to iterative and numerous interactions with multiple other blogs and tutorials.  
+One Shot Learning reflects the collection that author has accumulated over working his way through different resources on similar topics over the internet.
+
 
 ### Projects
 
