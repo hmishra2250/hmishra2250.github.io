@@ -27,7 +27,9 @@ This blog, in a similar manner reflects a cluster of information, going through 
 One Shot Learning reflects the collection that author has accumulated over working his way through different resources on similar topics over the internet.
 
 
-### Projects
+# More Information
+
+## Projects
 
 <p>
 I started working in Machine Learning from my Sophomore year where i had a glimpse of actual Machine Learning Projects through the Exploratory Project, through which i learned some basic analyis techniquues in R that helped me get into ML. <br>
@@ -42,7 +44,7 @@ I have also got my hands dirty with some cool stuffs such building ChatBot using
 I have also some contests in ML to show on my <a href="https://www.kaggle.com/hmishra2250">Kaggle</a> Home Page. Although I am unrated there now, but very soon i will be moving up :)
 </p>
 
-### More Information
+## Other Information
 
 <p>
 In my spare time, i love listening to music (specially by Ed Sheeran) and playing Table tennis or pool. I love trying out new cuisine and that's also why i love to travel to new places :P <br>
