@@ -23,7 +23,7 @@ When I began Expreimenting in Machine Learning with my GPU (GTX-940MX), I had to
 
     * Now that Nvidia Driver is installed, Goto [Nvidia Cuda website](https://developer.nvidia.com/cuda-downloads) and download the latest Cuda toolkit “runfile” for Linux and the specific architecture (x86-64 generally for 64 bits system). Run the runfile with root priviledges ( Command: *sudo sh /path/to/runfile.run* ), and follow along the onscreen instruction for configurations. Thus CUDA toolkit will thus be installed.
 
-    <b> Note: _(**Very Important**)_ Since we have already installed the "Open Source" nvidia driver above, make sure to say no when the runfile prompts ask for installing driver alongside cuda!! </b>
+    <b> Note: _(**Very Important**)_ Since we have already installed the "Open Source" nvidia driver above, make sure to say __NO__ when the runfile prompts ask for installing driver alongside CUDA!! </b>
 
     * Open the ~/.bashrc file in and set the following filepath:  
     _Note that the default cuda path is /usr/local/cuda-v.0 until and unless customised during installation_
