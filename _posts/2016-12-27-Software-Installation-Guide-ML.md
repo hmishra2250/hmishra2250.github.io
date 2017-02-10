@@ -40,12 +40,14 @@ export LIBRARY_PATH=path-to-latest-cuda/:$LIBRARY_PATH
 
 <b>
 Note: If incase you are getting missing linker problems, such as mentioned below, even though all softwares are installed</b>
+
 ```shell
 Missing recommended library: libX11.so
 Missing recommended library: libXi.so
 Missing recommended library: libXmu.so
 Missing recommended library: libGL.so
 ```
+
 <b>The problem here is moving of files from __/usr/lib/x86_64-linux-gnu__ to  __/usr/lib__ . The possible solution is to create symbolic links for it. For that cd to /usr/lib and create the following symbolic links.
 </b>
 
