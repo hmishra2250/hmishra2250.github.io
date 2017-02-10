@@ -21,6 +21,8 @@ When I began Expreimenting in Machine Learning with my GPU (GTX-940MX), I had to
 
     * Open Linux Dash and search for Additional Drivers. Choose latest “Open Source” driver and install it.
 
+    <b> Note: If facing problems when installation through default ppa viz additional driver options, Follow the instruction on [this link](http://askubuntu.com/questions/760934/graphics-issues-after-while-installing-ubuntu-16-04-16-10-with-nvidia-graphics). The first answer provides with enough information, however make sure to CLOSE the GUI before following those steps, else the system will be screwed </b>
+
     * Now that Nvidia Driver is installed, Goto [Nvidia Cuda website](https://developer.nvidia.com/cuda-downloads) and download the latest Cuda toolkit “runfile” for Linux and the specific architecture (x86-64 generally for 64 bits system). Run the runfile with root priviledges ( Command: *sudo sh /path/to/runfile.run* ), and follow along the onscreen instruction for configurations. Thus CUDA toolkit will thus be installed.
 
     <b> Note: _(**Very Important**)_ Since we have already installed the "Open Source" nvidia driver above, make sure to say __NO__ when the runfile prompts ask for installing driver alongside CUDA!! </b>
@@ -35,6 +37,25 @@ export LD_LIBRARY_PATH=path-to-latest-cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY
 export CPATH=path-to-latest-cuda/include:$CPATH  
 export LIBRARY_PATH=path-to-latest-cuda/:$LIBRARY_PATH  
 ```
+
+<b>
+Note: If incase you are getting missing linker problems, such as mentioned below, even though all softwares are installed</b>
+```shell
+Missing recommended library: libX11.so
+Missing recommended library: libXi.so
+Missing recommended library: libXmu.so
+Missing recommended library: libGL.so
+```
+<b>The problem here is moving of files from __/usr/lib/x86_64-linux-gnu__ to  __/usr/lib__ . The possible solution is to create symbolic links for it. For that cd to /usr/lib and create the following symbolic links.
+</b>
+
+```shell
+sudo ln -s x86_64-linux-gnu/libX11.so libX11.so
+sudo ln -s x86_64-linux-gnu/libXi.so libXi.so
+sudo ln -s x86_64-linux-gnu/libXmu.so libXmu.so
+sudo ln -s x86_64-linux-gnu/libGL.so libGL.so
+```
+
 
 Download and Install latest CuDNN from the official page (CuDNN v5.1 latest as of writing this). If you are installing cuda from sources, follow below path, else find first the cuda installation path using "_which nvcc_".  
 
@@ -133,6 +154,7 @@ cd  xgboost
 mkdir build
 cd build
 cmake .. -DPLUGIN_UPDATER_GPU=ON -DCUB_DIRECTORY=<CUB_DIRECTORY>
+make
 cd ../python-package
 python setup.py develop --user
 ```
